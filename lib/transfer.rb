@@ -27,11 +27,12 @@ class Transfer
 
   def reverse_transfer
 
-    if self.status = "reversed"
-       sender.balance += amount
-       receiver.balance -= amount
 
+    if sender.balance += amount
+  receiver.balance -= amount
+     self.status = "reversed"
      #binding.pry
+
   end
 end
 
