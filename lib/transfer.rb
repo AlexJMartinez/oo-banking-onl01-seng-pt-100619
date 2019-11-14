@@ -28,7 +28,6 @@ class Transfer
   receiver.balance -= amount
      self.status = "reversed"
      binding.pry
-
   end
 
 
