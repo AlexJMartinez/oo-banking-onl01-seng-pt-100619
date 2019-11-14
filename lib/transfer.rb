@@ -31,6 +31,7 @@ class Transfer
      self.status = "reversed"
      binding.pry
   end
+end
 
 
 
