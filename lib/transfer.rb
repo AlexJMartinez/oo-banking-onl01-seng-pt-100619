@@ -30,9 +30,7 @@ class Transfer
     if self.status = "reversed"
        sender.balance += amount
        receiver.balance -= amount
-
      #binding.pry
-
   end
 end
 
