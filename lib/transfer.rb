@@ -29,9 +29,10 @@ class Transfer
 
 
     if (sender.valid?  || receiver.valid?) || (receiver.balance > amount)
+      self.status = "reversed"
        sender.balance += amount
-  receiver.balance -= amount
-     self.status = "reversed"
+       receiver.balance -= amount
+
      #binding.pry
 
   end
