@@ -30,7 +30,7 @@ class Transfer
     if (sender.valid? && receiver.valid?) && (receiver.balance > amount)
        sender.balance += amount
        receiver.balance -= amount
-       self.status = "rejected"
+       self.status = "reversed"
   end
 
 end
